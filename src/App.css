@@ -1,38 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
 .App {
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  background: center center fixed;
+  background-size: cover;
+  font-family: canara;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.DarkApp{
+    background-color:#293462;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  width: 250px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.displayFlex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#headerDark{
+  font-size: 3rem;
+  color:#F7D716;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#centerContainerDark{
+  width: 70%;
+  color:#ffffff;
+  word-wrap: break-word;
+  background-color: #874356;
+  padding: 20px;
+  border-radius: 5px;
+  margin:20px auto;
+}
+
+#darkForm{
+  width: 70%;
+  color:#293462;
+  word-wrap: break-word;
+  background-color: #FEB139;
+  padding: 20px;
+  border-radius: 5px;
+  margin:20px auto;
+  max-width: 250px;
+}
+
+
+#darkPickWinner{
+  width: 70%;
+  color:#293462;
+  word-wrap: break-word;
+  background-color: #FEB139;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 250px;
+  margin:20px auto;
+}
+
+
+.darkNotification{
+  color: #F7D716;
+}
+
+
+.darkButton{
+    border-radius: 25px;
+    background-color: #874356;
+    padding: 10px;
+    margin:10px auto 0px auto;
+    width: 120px;
+    color: white;
+    cursor: pointer;
 }
