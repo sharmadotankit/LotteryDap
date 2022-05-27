@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LotteryDap/static/css/main.03ff81bf.chunk.css",
-    "main.js": "/LotteryDap/static/js/main.5fd96356.chunk.js",
-    "main.js.map": "/LotteryDap/static/js/main.5fd96356.chunk.js.map",
+    "main.js": "/LotteryDap/static/js/main.41ddab28.chunk.js",
+    "main.js.map": "/LotteryDap/static/js/main.41ddab28.chunk.js.map",
     "runtime-main.js": "/LotteryDap/static/js/runtime-main.a009d9cb.js",
     "runtime-main.js.map": "/LotteryDap/static/js/runtime-main.a009d9cb.js.map",
     "static/js/2.e3ff43dc.chunk.js": "/LotteryDap/static/js/2.e3ff43dc.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a009d9cb.js",
     "static/js/2.e3ff43dc.chunk.js",
     "static/css/main.03ff81bf.chunk.css",
-    "static/js/main.5fd96356.chunk.js"
+    "static/js/main.41ddab28.chunk.js"
   ]
 }
