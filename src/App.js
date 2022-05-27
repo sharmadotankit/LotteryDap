@@ -42,8 +42,6 @@ function App() {
       value:web3.utils.toWei(value,"ether")
     });
 
-    event.target.value = '';
-
     setMessage('You have been entered');
   }catch(err){
     setMessage('Invalid input!!! To enter you need to enter ether greater then 0.01');
